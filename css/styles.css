@@ -53,3 +53,26 @@
   align-items: center;
   text-align: center;
 }
+/*cart page*/
+.cart-container {
+  padding: 6rem 2rem 2rem;
+}
+.wecome-box {
+  background: grey;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.deliver-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: auto;
+}
+.delivery-form input,
+.delivery-form textarea {
+  padding: 1rem;
+  border: 1px solid #add;
+  border-radius: 5px;
+}
