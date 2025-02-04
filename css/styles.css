@@ -6,7 +6,7 @@
 }
 /* style the nav container */
 .nav-items {
-  background-color: grey;
+  background-color: lightblue;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -23,19 +23,33 @@
   padding: 10px 20px;
 }
 .nav-items {
-  font-size: 24px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: italic;
+  text-decoration-color: black;
 }
 /*make the items light when hovering*/
 .nav-items a:hover {
-  color: lightblue;
+  color: blue;
 }
 /* hero page */
 .hero {
-  height: 85vh;
+  height: 100vh;
   background: url("https://housing.com/news/wp-content/uploads/2022/11/green-house-feature-compressed-686x400.jpg")
     center/cover;
   display: flex;
   align-items: flex-end;
-  padding: 2rem;
+  padding: 3rem;
+}
+/*into-box*/
+.intro-box {
+  background-color: greenyellow;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-bottom: 2rem;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
