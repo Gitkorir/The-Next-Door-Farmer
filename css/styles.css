@@ -1,3 +1,26 @@
-index.html {
+/* style the nav container */
+.nav-items {
   background-color: grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin: 0;
+  list-style-type: none;
+}
+/*style the home to the left of page */
+.nav-items li:first-child {
+  margin-right: auto;
+}
+/*style(menu,junior-farmer,cart,contact)to the right*/
+.nav-items li {
+  padding: 10px 20px;
+}
+.nav-items {
+  font-size: 24px;
+  font-weight: bold;
+}
+/*make the items light when hovering*/
+.nav-items a:hover {
+  color: lightblue;
 }
