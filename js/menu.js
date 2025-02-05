@@ -1,4 +1,5 @@
 // Sample product data
+// Sample product data
 const products = [
   {
     id: 1,
@@ -12,11 +13,47 @@ const products = [
     price: 120,
     image: "https://images.unsplash.com/photo-1447175008436-054170c2e979",
   },
-  {
-    id: 3,
-    name: "Watermelon",
-    price: 350,
-    image:
-      "https://dtgxwmigmg3gc.cloudfront.net/imagery/assets/derivations/icon/512/512/true/eyJpZCI6IjZhYTI3ZmUxYzliMTNiMWEyMTJlYTU5ZGQxNDMzZjc5Iiwic3RvcmFnZSI6InB1YmxpY19zdG9yZSJ9?signature=7c42ad0bf27606f1ae28afd728325428fdd5f9c9eb0bb07297ecbb00b145a3a9",
-  },
+  // Add more products here
 ];
+
+function displayProducts() {
+  const grid = document.querySelector(".products-grid");
+  grid.innerHTML = "";
+
+  products.forEach((product) => {
+    const card = document.createElement("div");
+    card.className = "product-card";
+    card.innerHTML = `
+      <img src="${product.image}" alt="${product.name}">
+      <h3>${product.name}</h3>
+      <p class="price">KSH ${product.price}/kg</p>
+      <button class="add-to-cart" data-id="${product.id}" data-name="${product.name}" data-price="${product.price}">
+        Add to Cart
+      </button>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+function updateCartCount() {
+  const cart = JSON.parse(localStorage.getItem("cart")) || [];
+  document.getElementById("cart-count").textContent = cart.length;
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  displayProducts();
+  updateCartCount();
+
+  document.querySelector(".products-grid").addEventListener("click", (e) => {
+    if (e.target.classList.contains("add-to-cart")) {
+      const { id, name, price } = e.target.dataset;
+      const cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+      cart.push({ id: parseInt(id), name, price: parseInt(price) });
+      localStorage.setItem("cart", JSON.stringify(cart));
+
+      updateCartCount();
+      alert(`${name} added to cart!`);
+    }
+  });
+});
