@@ -76,3 +76,32 @@
   border: 1px solid #add;
   border-radius: 5px;
 }
+/*contact page*/
+.contact-page {
+  height: 100vh;
+  background-color: antiquewhite;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.nature-circle {
+  overflow: hidden;
+  border-radius: 60vh;
+  width: 75vh;
+  height: 75vh;
+}
+.nature-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.contact-box {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
