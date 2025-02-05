@@ -19,5 +19,25 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <div class="farmer-image">
+        <img
+          src="https://images.unsplash.com/photo-1560493676-04071c5f467b"
+          alt="Farm land"
+        />
+      </div>
+      <form id="Junior-Farmer-Form" class="junior-farmer-form">
+        <input type="text" name="name" placeholder="Name" required />
+        <input type="number" name="number" placeholder="Age" required />
+        <select name="gender" requried>
+          <option value="">Select Gender</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+        <input type="date" name="visit-date" required />
+        <button type="submit">Join The Harvest</button>
+      </form>
+      <div id="Welcome-message" class="Welcome-message"></div>
+    </main>
   </body>
 </html>
