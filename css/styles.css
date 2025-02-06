@@ -56,15 +56,17 @@
 /*cart page*/
 .cart-container {
   padding: 6rem 2rem 2rem;
+  background-color: #2ecc71;
 }
 .wecome-box {
-  background-color: grey;
+  background-color: ;
   padding: 2rem;
   border-radius: 10px;
   margin-bottom: 2rem;
 }
 .deliver-form {
   display: flex;
+  justify-content: row;
   flex-direction: column;
   gap: 1rem;
   max-width: 500px;
@@ -75,6 +77,7 @@
   padding: 1rem;
   border: 1px solid #add;
   border-radius: 5px;
+  background-color: lightgrey;
 }
 /*contact page*/
 .contact-page {

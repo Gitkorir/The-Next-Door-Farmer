@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const date = new Date(formData.get("visit-date")).toLocaleDateString();
 
     welcomeMessage.textContent = `Welcome ${name} to The Next Door Farmers' adventure. We are eager to have you with us on ${date}. Farm on!!! OooooooW YEA!`;
+    alert(output.welcomeMessage());
     form.reset();
   });
 });
