@@ -73,6 +73,96 @@ const products = [
     image:
       "https://www.foodrepublic.com/img/gallery/how-to-actually-cut-the-spice-out-of-a-pepper-hint-its-not-all-in-the-seeds/l-intro-1688680916.jpg",
   },
+  {
+    id: 12,
+    name: "spring onion",
+    price: 25,
+    image:
+      "https://seedmart.com.au/wp-content/uploads/2024/03/early_onion_isolated-1.jpg",
+  },
+  {
+    id: 13,
+    name: "Sweet Banana",
+    price: 60,
+    image:
+      "https://greenspoon.co.ke/wp-content/uploads/2021/11/Greenspoon-Kwik-Basket-Sweet-Banana.jpg",
+  },
+  {
+    id: 14,
+    name: "Hard green cooking-banana",
+    price: 850,
+    image: "https://m.media-amazon.com/images/I/B1XINyDnFjS.jpg",
+  },
+  {
+    id: 15,
+    name: "Mangoes",
+    price: 120,
+    image:
+      "https://farmkenyablog.wordpress.com/wp-content/uploads/2018/01/mangoes.jpg",
+  },
+  {
+    id: 16,
+    name: "Passion Fruit",
+    price: 180,
+    image:
+      "https://www.garden.eco/wp-content/uploads/2018/07/passion-fruit-flower.jpg",
+  },
+  {
+    id: 18,
+    name: "Blood-fruit",
+    price: 120,
+    image:
+      "https://gumlet.assettype.com/down-to-earth%2Fimport%2Flibrary%2Flarge%2F2018-11-01%2F0.68715300_1541073736_fruit.jpg",
+  },
+  {
+    id: 19,
+    name: "Oranges",
+    price: 220,
+    image:
+      "https://cdn-prod.medicalnewstoday.com/content/images/articles/272/272782/oranges-in-a-box.jpg",
+  },
+  {
+    id: 20,
+    name: "Tangerines",
+    price: 260,
+    image:
+      "https://insanelygoodrecipes.com/wp-content/uploads/2023/01/Fresh_Organic_Tangerine_Oranges_with_Leaves-500x375.jpg",
+  },
+  {
+    id: 21,
+    name: "Pepino Melon",
+    price: 240,
+    image:
+      "https://www.greenlife.co.ke/wp-content/uploads/2022/04/pepino_harvested_melon.jpg",
+  },
+  {
+    id: 22,
+    name: "(1-Litre) Milk",
+    price: 50,
+    image:
+      "https://www.thefrozengarden.com/cdn/shop/articles/benefits-of-whole-milk-benefits-of-drinking-whole-milk-blog-frozen-garden_e991a019-eebb-455b-99b2-96041863f037.webp?v=1706546802",
+  },
+  {
+    id: 23,
+    name: "Beef",
+    price: 240,
+    image:
+      "https://thumbs.dreamstime.com/b/red-beff-steak-white-background-86298088.jpg",
+  },
+  {
+    id: 24,
+    name: "Chicken",
+    price: 1200,
+    image:
+      "https://meatdirect.co.nz/wp-content/uploads/whole-chicken-frozen-raw.jpg",
+  },
+  {
+    id: 25,
+    name: "Mutton",
+    price: 280,
+    image:
+      "https://thekitchencommunity.org/wp-content/uploads/2022/10/mutton-meat.jpeg",
+  },
 
   // Add more products here
 ];
