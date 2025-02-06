@@ -1,3 +1,4 @@
+// Sample product data
 const products = [
   {
     id: 1,
@@ -11,14 +12,13 @@ const products = [
     price: 120,
     image: "https://images.unsplash.com/photo-1447175008436-054170c2e979",
   },
-  // Add more products here if needed
+  // Add more products here
 ];
 
 function displayProducts() {
   const grid = document.querySelector(".products-grid");
-  grid.innerHTML = ""; // Clear any existing products
+  grid.innerHTML = "";
 
-  // Loop through products and create product cards
   products.forEach((product) => {
     const card = document.createElement("div");
     card.className = "product-card";
@@ -43,7 +43,6 @@ document.addEventListener("DOMContentLoaded", () => {
   displayProducts();
   updateCartCount();
 
-  // Handle Add to Cart button click
   document.querySelector(".products-grid").addEventListener("click", (e) => {
     if (e.target.classList.contains("add-to-cart")) {
       const { id, name, price } = e.target.dataset;

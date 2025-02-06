@@ -1,8 +1,9 @@
-function displaycart() {
+function displayCart() {
   const cart = JSON.parse(localStorage.getItem("cart")) || [];
-  document.querySelector("cart-items");
+  const cartItems = document.querySelector(".cart-items");
+
   if (cart.length === 0) {
-    cart.innerhtml = "<p>Your cart is empty</p>";
+    cartItems.innerHTML = "<p>Your cart is empty</p>";
     return;
   }
 

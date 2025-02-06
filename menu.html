@@ -1,11 +1,11 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The-Next-Door-Farmer</title>
+    <title>Menu - The Next Door Farmer</title>
     <link rel="stylesheet" href="./css/styles.css" />
-    <script src="./js/index.js" defer></script>
+    <script src="./js/menu.js" defer></script>
   </head>
   <body>
     <header>
@@ -14,7 +14,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="menu.html">Menu</a></li>
           <li><a href="cart.html">Cart</a></li>
-          <li><a href="junior-farmer.html">Juior-Farmer</a></li>
+          <li><a href="junior-farmer.html">Junior-Farmer</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
@@ -24,7 +24,23 @@
       </div>
     </header>
     <main class="products-grid">
-      <!-- Product cards will be dynamically added here -->
+      <div class="product-card">
+        <img
+          src="https://images.unsplash.com/photo-1518977676601-b53f82aba655"
+          alt="Fresh Tomatoes"
+        />
+        <h3>Fresh Tomatoes</h3>
+        <p class="price">KSH 150/kg</p>
+        <button
+          class="add-to-cart"
+          data-id="1"
+          data-name="Fresh Tomatoes"
+          data-price="150"
+        >
+          Add to Cart
+        </button>
+      </div>
+      <!-- More product cards will be added dynamically via JavaScript -->
     </main>
   </body>
 </html>
