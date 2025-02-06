@@ -1,7 +1,7 @@
 <image src="https://images.unsplash.com/photo-1518977676601-b53f82aba655">
   <image src="https://images.unsplash.com/photo-1447175008436-054170c2e979">
     Fresh watermelon:
-    "https://hips.hearstapps.com/hmg-prod/images/fresh-ripe-watermelon-slices-on-wooden-table-royalty-free-image-1684966820.jpg?crop=0.6673xw:1xh;center,top&resize=640:*s
+    https://hips.hearstapps.com/hmg-prod/images/fresh-ripe-watermelon-slices-on-wooden-table-royalty-free-image-1684966820.jpg?crop=0.6673xw:1xh;center,top&resize=640:*s
     Fresh Kales: https://specialtyproduce.com/sppics/7631.png Organic spinach:
     https://greenspoon.co.ke/wp-content/uploads/2022/02/Greenspoon-Spinach-Mlango-Farm-1.jpg
     Cabbage:
@@ -41,3 +41,13 @@
     https://thekitchencommunity.org/wp-content/uploads/2022/10/mutton-meat.jpeg
   </image></image
 >
+background:
+url("https://housing.com/news/wp-content/uploads/2022/11/green-house-feature-compressed-686x400.jpg")
+<img
+  src="https://images.unsplash.com/photo-1560493676-04071c5f467b"
+  alt="Farm land"
+/>
+<img
+  src="https://www.mountainlifemedia.ca/wp-content/uploads/2021/05/Fragile-Harvest-Documenting-Family-Farm-Pandemic-Paul-Bettings-rhubarb.jpeg"
+  alt="nature"
+/>
