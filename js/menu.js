@@ -2,7 +2,7 @@
 const products = [
   {
     id: 1,
-    name: "Fresh Tomatoes",
+    name: "Fresh Potatoes",
     price: 150,
     image: "https://images.unsplash.com/photo-1518977676601-b53f82aba655",
   },
@@ -12,6 +12,14 @@ const products = [
     price: 120,
     image: "https://images.unsplash.com/photo-1447175008436-054170c2e979",
   },
+  {
+    id: 3,
+    name: "Fresh watermelon",
+    price: 350,
+    image:
+      "https://hips.hearstapps.com/hmg-prod/images/fresh-ripe-watermelon-slices-on-wooden-table-royalty-free-image-1684966820.jpg?crop=0.6673xw:1xh;center,top&resize=640:*",
+  },
+
   // Add more products here
 ];
 
